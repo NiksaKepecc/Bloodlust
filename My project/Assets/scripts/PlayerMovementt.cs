@@ -13,7 +13,7 @@ public class PlayerMovementt : MonoBehaviour
 
     private void Start()
     {
-        controller = gameObject.AddComponent<CharacterController>();
+        
     }
 
     void Update()

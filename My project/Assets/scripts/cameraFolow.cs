@@ -25,9 +25,9 @@ public class cameraFolow : MonoBehaviour
         Vector3 desiredPosition = player.position + offset;
         Vector3 smoothPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothPosition + END;
-        
 
-        box = EndBox.localScale;
+
+        box = GameObject.Find("Border").transform.localScale;
         EndBoxX = box.x;
         EndBoxZ = box.z;
         
