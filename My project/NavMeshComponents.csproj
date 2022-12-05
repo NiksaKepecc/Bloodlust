@@ -56,10 +56,10 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-    <Compile Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
     <Compile Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
+    <Compile Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
+    <Compile Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\agentMesh\NavMeshComponents\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef" />
